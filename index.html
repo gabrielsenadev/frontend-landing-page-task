@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sabedoria&saude - Seu hub de profissionais de saúde</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="page-header" class="shadow-200">
+    <h1 class="logo">sabedoria&saude</h1>
+    <nav id="main-nav">
+      <ul>
+        <li class="active">
+          <a href="#">home</a>
+        </li>
+        <li>
+          <a href="#servicos">serviços</a>
+        </li>
+        <li>
+          <a href="#quem-somos">quem somos</a>
+        </li>
+        <li>
+          <a href="#contato">contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <header class="header">
+      <h2>Cuidando da saúde de quem ensina todo dia.</h2>
+      <p>Boas vindas a nossa plataforma que permite que professores se conectem com profissionais da saúde de maneira
+        gratuíta. Uma parceria da sua prefeitura com nossos profissionais.</p>
+    </header>
+    <div id="highlights">
+      <div class="highlight">
+        <img src="./img/icons/cell-tower.svg" />
+        <h4>Profissionais em todo o Brasil</h4>
+      </div>
+      <div class="highlight">
+        <img src="./img/icons/cell-tower.svg" />
+        <h4>Profissionais em todo o Brasil</h4>
+      </div>
+      <div class="highlight">
+        <img src="./img/icons/cell-tower.svg" />
+        <h4>Profissionais em todo o Brasil</h4>
+      </div>
+      <div class="highlight">
+        <img src="./img/icons/cell-tower.svg" />
+        <h4>Profissionais em todo o Brasil</h4>
+      </div>
+    </div>
+  </main>
+
+  <section id="servicos">
+    <header class="header">
+      <h3>Um leque de serviços para cuidar de todas as àreas da sua vida.</h3>
+      <p>Com a nossa plataforma, você terá a sua disposição diversos serviços de profissionais de saúde. Aproveite nosso
+        leque de serviços para cuidar cada vez mais da sua saúde.</p>
+    </header>
+    <div class="services">
+      <div class="service">
+        Psicologo
+      </div>
+      <div class="service">
+        Nutricionista
+      </div>
+      <div class="service">
+        Neurologista
+      </div>
+      <div class="service">
+        Endocrinologista
+      </div>
+    </div>
+  </section>
+
+  <section id="quem-somos">
+    <header class="header">
+      <h3>Somos quem procuramos quando precisamos.</h3>
+      <p>Somos profissionais de educação que sentiam dificuldades em encontrar apoio em algumas áreas da saúde. Nosso
+        problema principal era a questão dos horários e depois percebemos que outros profissionais nem se quer a
+        oportunidade disso tinha, devido aos altos custos. Então, fechamos uma parceria com uma prefeitura para ter um
+        maior suporte destes profissionais.
+        Depois disso, esta plataforma se tornou o quê ela é hoje: uma rede para encontrar profissionais de saúde com uma
+        ajuda da sua prefeitura local.</p>
+    </header>
+  </section>
+
+  <section id="contato">
+    <header class="header">
+      <h3>Fale conosco!</h3>
+      <p>Estamos a disposição! Entre em contato e tire suas dúvidas.</p>
+    </header>
+    <form id="form">
+      <div class="form-container">
+        <div class="input-container">
+          <label for="nome">Seu nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Seu Nome" required />
+        </div>
+        <div class="input-container">
+          <label for="email">Seu e-mail</label>
+          <input type="email" name="email" id="email" placeholder="seu@email.com" required />
+        </div>
+        <div class="input-container">
+          <label for="duvida">Sua dúvida</label>
+          <textarea id="duvida" name="duvida" placeholder="Sua dúvida" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>
